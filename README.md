@@ -1,5 +1,4 @@
 # hearstat/jenkins-build-foodcritic
-================
 
 Container that runs all all foodcrtitic tests for Jenkins
 
