@@ -16,6 +16,7 @@ RUN apk --update add ruby ruby-rake &&\
       ruby-dev \
       libxml2-dev &&\
       gem install -N foodcritic &&\
+      gem install -N json &&\
       gem install -N rubocop-checkstyle_formatter &&\
       apk del .ruby-builddeps &&\
       rm -rf /var/cache/apk/* &&\
